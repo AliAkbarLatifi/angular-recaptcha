@@ -17,6 +17,7 @@
                 response: '=?ngModel',
                 key: '=',
                 theme: '=?',
+                lang: '=?',
                 size: '=?',
                 tabindex: '=?',
                 onCreate: '&',
@@ -65,6 +66,7 @@
                     vcRecaptcha.create(elm[0], key, callback, {
 
                         theme: scope.theme || attrs.theme || null,
+                        lang: scope.lang || attrs.lang || null,
                         tabindex: scope.tabindex || attrs.tabindex || null,
                         size: scope.size || attrs.size || null
 
